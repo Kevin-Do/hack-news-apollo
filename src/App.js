@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import LinkList from './components/LinkList';
+
 import logo from './logo.svg';
 import './styles/App.css';
 
@@ -9,7 +11,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            <LinkList />
           </p>
           <a
             className="App-link"
